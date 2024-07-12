@@ -1,0 +1,61 @@
+body {
+    background: black;
+    font: normal 15pt Tahoma;
+}
+
+header {
+    color: yellow;
+    text-align: center;
+}
+
+section {
+    background: rgb(35, 35, 35);
+    border-radius: 0px;
+    padding: 15px;
+    width: 190px;
+    margin: auto;
+}
+
+div {
+    color: yellow;
+}
+
+select {
+    font-size: medium;
+    background: rgb(35, 35, 35);
+    color: yellow;
+    padding: 5px;
+    height: 40pxpx;
+    width: 180px;
+}
+
+input {
+    background: rgb(31, 31, 3);
+    color: yellow;
+}
+
+input#num1 {
+    font-size: medium;
+    font-weight: bold;
+    width: 172px;
+    height: 30px;
+    background: black;
+}
+
+input#num2 {
+    font-size: medium;
+    font-weight: bold;
+    width: 172px;
+    height: 30px;
+    background: black;
+}
+
+h5 {
+    color: yellow;
+}
+
+.converter {
+    margin: auto;
+    text-align: center;
+    font-size: large;
+}

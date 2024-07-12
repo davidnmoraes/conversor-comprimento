@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h2>Conversor de Comprimento</h2>
+    </header>
+    <section>
+        <h5>
+            <strong>De:</strong> <br>
+            <select name="und" class="referencia" id="refer">
+                <option value="mm" id="mm">Milímetros (mm)</option>
+                <option value="cm" id="cm">Centímetros (cm)</option>
+                <option value="m" id="m">Metros (m)</option>
+                <option value="km" id="km">Quilômetros (km)</option>
+                <option value="in" id="in">Polegadas (in)</option>
+                <option value="ft" id="ft">Pés (ft)</option>
+                <option value="yd" id="yd">Jardas (yd)</option>
+                <option value="mi" id="mi">Milhas (mi)</option>
+                <option value="NM" id="NM">Milhas náuticas (NM)</option>
+                <option value="mil" id="mil">Mils (mil)</option>
+            </select><br>
+            <input type="number" name="num1" id="num1"> <!-- Display 'De: '-->
+            <strong>Para:</strong><br>
+            <select name="und" class="resultado" id="result">
+                <option value="mm2" id="mm2">Milímetros (mm)</option>
+                <option value="cm2" id="cm2">Centímetros (cm)</option>
+                <option value="m2" id="m2">Metros (m)</option>
+                <option value="km2" id="km2">Quilômetros (km)</option>
+                <option value="in2" id="in2">Polegadas (in)</option>
+                <option value="ft2" id="ft2">Pés (ft)</option>
+                <option value="yd2" id="yd2">Jardas (yd)</option>
+                <option value="mi2" id="mi2">Milhas (mi)</option>
+                <option value="NM2" id="NM2">Milhas náuticas (NM)</option>
+                <option value="mil2" id="mil2">Mils (mil)</option>
+            </select><br>
+            <input type="number" name="num2" id="num2"><!-- Display 'P/: '-->
+        </h5>
+        
+        <input type="button" class="converter" value=" Converter " style="width: 180px; height: 35px;" onclick="converter()"><br>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
